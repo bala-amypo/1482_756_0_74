@@ -23,6 +23,6 @@ public class LocationController {
 
     @GetMapping("/showlocation")
     public List<LocationEntity> show() {
-        return locationService.getalllocation();
+        return locationService.getalllocation()
     }
 }
